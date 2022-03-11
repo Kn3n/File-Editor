@@ -19,11 +19,7 @@ public class EditorFrame {
         jTextArea.setLineWrap(true);
         jTextArea.setWrapStyleWord(true);
 
-        JTextArea areaTexto = new JTextArea(25,80);
-        areaTexto.setLineWrap(true);
-        areaTexto.setWrapStyleWord(true);
-
-        JScrollPane scroll = new JScrollPane(areaTexto);
+        JScrollPane scroll = new JScrollPane(jTextArea);
         jFrame.getContentPane().add(scroll, BorderLayout.CENTER);
     }
 }
