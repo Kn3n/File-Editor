@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class EditorFrame {
-    JFrame jFrame = new JFrame("Joseluu text editor");
+    JFrame jFrame = new JFrame("Text editor");
     JMenuBar jMenu = new JMenuBar();
     JTextArea jTextArea = new JTextArea(25,80);
     JScrollPane jScrollPane = new JScrollPane();
