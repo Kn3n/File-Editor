@@ -10,6 +10,8 @@ public class EditorFrame {
     JScrollPane jScrollPane = new JScrollPane();
 
     public void openFrame(){
+        jMenu.setSize(500, 500);
+
         jFrame.getContentPane().add(jMenu, BorderLayout.NORTH);
         jFrame.getContentPane().add(jMenu, BorderLayout.CENTER);
         jFrame.setVisible(true);
